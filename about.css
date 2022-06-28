@@ -1,0 +1,163 @@
+body{
+	background-color: GhostWhite;
+	color: black;
+	font-family: timesnewroman, arial, verdana;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 1.6em;
+	margin: 0;
+}
+
+.container{
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+
+#main-header{
+	background-color: #009999;
+	color: white;
+	font-family: courier, arial, helvetica;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	text-shadow: 2px 2px mediumblue;
+}
+
+#navbar{
+	background-color: black;
+	color: white;
+	margin-bottom: 0px;
+}
+
+#navbar ul{
+	padding:0;
+	list-style:none;
+	text-align: right;
+	font-weight: bold;
+}
+
+#navbar li{
+	display: inline;
+}
+
+li a:hover{
+		background-color: #333333;
+	}
+
+#navbar a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 30px;
+}
+
+#breadcrumbs{
+	font-size: 18px;
+	list-style: none;
+	text-decoration: none;
+}
+
+#breadcrumbs li{
+	display: inline;
+}
+
+#breadcrumbs ul{
+	padding:0;
+	list-style:none;
+	text-align: left;
+}
+
+#showcase{
+	background-image:url('../images/showcase.jpg');
+}
+
+#main{
+	float: right;
+	width: 65%;
+	padding-top: 0px;
+	padding-bottom: 20px;
+	padding-right: 0px;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+
+#sidebar{
+	float: left;
+	width: 35%;
+	padding-top: 0px;
+	padding-bottom: 20px;
+	padding-right: 10px;
+	padding-left: 0px;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 14px;
+	line-height: 1em;
+}
+
+table{
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+caption{
+	font-size: 20px;
+	font: courier;
+	font-weight: bold;
+	text-align: center;
+}
+
+th{
+	background-color: gray;
+}
+
+table, th, td{
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+th,td{
+	text-align: center;
+	font-size: 18px;
+}
+
+#map{
+	font-size: 20px;
+	font: courier;
+	font-weight: bold;
+	text-align: center;
+	float: right;
+	width: 65%;
+	padding-top: 0px;
+	padding-bottom: 20px;
+	padding-right: 0px;
+	padding-left: 0px;
+	box-sizing: border-box;
+}
+
+#quotes{
+	background-color: #009999;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding: 5px;
+	margin-top: 40px;
+}
+
+#main-footer{
+	background: black;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+a[href] {
+  color: dodgerblue;
+}
+
+@media(max-width:600px){
+	#main{
+		width: 100%;
+		float: none;
+}
